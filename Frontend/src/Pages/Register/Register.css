@@ -1,0 +1,61 @@
+.register{
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    rgba(255,255,255,0.1),
+    rgba(255,255,255,0.1)
+  ),
+     url("https://images.pexels.com/photos/380330/pexels-photo-380330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.registerTitle{
+  font-size: 50px;
+}
+
+.registerForm{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.registerForm > label {
+  margin: 10px 0;
+}
+
+.registerInput{
+  padding: 10px;
+  background-color: white;
+  border: none;
+  
+}
+
+.registerButton{
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Hammersmith One', sans-serif;
+  border: none;
+  padding: 15px;
+}
+
+.registerLoginButton{
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: lightcoral;
+  cursor: pointer;
+  border: none;
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Hammersmith One', sans-serif;
+}

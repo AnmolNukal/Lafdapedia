@@ -1,0 +1,78 @@
+.Navbar{
+  height: 50px;
+  top:0;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+  position: sticky;
+  color:  #f51049;
+  background-color: #171717;
+  font-family: 'Bebas Neue', cursive;
+  padding-bottom: 8px;
+}
+
+.topLeft{
+  flex : 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.topCenter{
+  flex:6;
+ 
+}
+.topRight{
+  flex:3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.topImg{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.topIcon{
+  font-size: 20px;
+  margin-right: 10px;
+ 
+  
+}
+
+.topList{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  list-style: none;
+  font-size: 29px;
+  margin-top: 5px;
+}
+
+.topListItem{
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.topListItem:hover{
+  color: #ff537e
+}
+
+.topSearchIcon{
+  font-size: 18px;
+  color: #444;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.logoTitle{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 35px;
+  position: relative;
+  top: 6px;
+}

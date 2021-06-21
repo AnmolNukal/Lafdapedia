@@ -1,0 +1,113 @@
+.singlePost {
+  flex: 9;
+  padding-left: 50px;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+}
+
+.singlePostWrapper {
+  padding: 20px;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 500px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.singlePostTitle {
+  text-align: center;
+  margin: 20px 60px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 35px;
+  color: #f51049;
+  letter-spacing: 5px;
+  
+}
+
+.singlePostTitleInput {
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+  text-align: center;
+  border: none;
+  color: gray;
+  border-bottom: 1px solid lightgray;
+  margin: 0 350px;
+}
+
+.singlePostTitleInput:focus {
+  outline: none;
+}
+
+.singlePostEdit {
+  display: flex;
+  flex-direction:row-reverse;
+  font-size: 20px;
+  margin-left: 20px;
+  
+}
+
+.singlePostIcon {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+}
+
+.singlePostIcon:last-child {
+  color: tomato;
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+  color: #f51049;
+}
+
+.singlePostDesc {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.singlePostDescInput {
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  line-height: px;
+ 
+  margin: 0px 130px;
+}
+
+.singlePostDescInput:focus {
+  outline: none;
+}
+.singlePostButton {
+  width: 100px;
+  border: none;
+  background-color: teal;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 20px;
+}

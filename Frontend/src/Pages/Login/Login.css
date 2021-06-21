@@ -1,0 +1,76 @@
+.login{
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    rgba(255,255,255,0.1),
+    rgba(255,255,255,0.1)
+  ),
+     url("https://images.pexels.com/photos/163403/box-sport-men-training-163403.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  font-family: 'Bebas Neue', cursive;
+  color:  #f51049;
+}
+
+
+
+input[type=button] {
+  font-family: 'Bebas Neue', cursive;;
+
+}
+
+.loginTitle{
+  font-size: 50px;
+}
+
+.loginForm{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.loginForm > label {
+  margin: 10px 0;
+  font-size: 25px;
+}
+
+.loginInput{
+  padding: 10px;
+  border: none;
+  background-color:  #171717;
+  color : white;
+  
+}
+
+.loginButton{
+  margin-top: 20px;
+  cursor: pointer;
+  background-color:  #f51049;;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  border: none;
+}
+
+.loginRegisterButton{
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: teal;
+  cursor: pointer;
+  border: none;
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+  font-family : inherit;
+    font-size: 1em;
+}
+
+.loginButton:disabled{
+  cursor: not-allowed;
+  background-color: coral;
+
+}
